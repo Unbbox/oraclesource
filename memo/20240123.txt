@@ -1,0 +1,42 @@
+roadmap.sh/backend
+
+system db 비밀번호 : 0501
+
+sys as sysdba
+alter session set "_oracle_script"=true;
+
+@C:\Users\soldesk\Downloads\db-sample-schemas-main\human_resources\hr_install.sql
+@C:\app\soldesk\product\21c\dbhomeXE\rdbms\admin\scott.sql
+
+오라클은 대소문자 구분 X (단, 비밀번호는 대소문자 구분.)
+
+system => 관리자 dba
+
+HR
+SCOTT 연결
+
+oracle 단축키
+ctrl + / : 주석 달기
+오라클 주석 : --
+
+DBeaver 단축키
+ctrl + shift + f : sql 쿼리문 정렬
+
+
+DBeaver : 오라클 서버 연결 및 SQL문 실행을 위한 편집기
+* DBeaver 이외에 사용할 수 있는 프로그램 : SQL Plus 등
+사용자 추가 : HR(오라클 공식 샘플 계정), SCOTT(HR 계정의 간단한 계정)
+
+
+SQL : DB 서버에 질의를 할 수 있는 언어
+SQL은 대소문자를 구별하지 않음. 단, 비밀번호는 대소문자 구별함
+
+
+[교육 진행 순서]
+DB > 자바 > 자바 + DB 연동 프로그램
+html + css + js + ajax > spring boot > 프로젝트 진행
+
+XE : 오라클 XE 21.x 버전
+ORCL : 오라클 다른 버전 다운로드 시 기본 이름
+
+empno(사원번호), ename(사원명), job(직책), mgr(매니저 번호),  hiredate(고용일), sal(급여), common
