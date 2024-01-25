@@ -86,3 +86,215 @@ WHERE
 	HIRE_DATE BETWEEN '2017-01-01' AND '2017-12-31'
 ORDER BY HIRE_DATE DESC;
 
+-- 부서번호가 20, 50인 부서에서 근무하고, 연봉이 5000~12000 사이인 사원들의 LAST_NAME, SALARY 조회
+SELECT
+	LAST_NAME,
+	SALARY
+FROM
+	EMPLOYEES
+WHERE
+	DEPARTMENT_ID IN (20, 50)
+	AND SALARY BETWEEN 5000 AND 12000;
+
+-- 2017-01-01 ~ 2017-12-31 사이에 고용된 사원들의 last_name, employee_id, hire_date 조회
+-- hire_date 내림차순 정렬
+SELECT
+	LAST_NAME,
+	EMPLOYEE_ID,
+	HIRE_DATE
+FROM
+	EMPLOYEES
+WHERE
+	HIRE_DATE BETWEEN '2017-01-01' AND '2017-12-31'
+ORDER BY HIRE_DATE DESC;
+
+SELECT
+	LAST_NAME,
+	SALARY
+FROM
+	EMPLOYEES
+WHERE
+	DEPARTMENT_ID IN (20, 50)
+	AND SALARY NOT BETWEEN 5000 AND 12000;
+
+-- 부서 80의 각 사원에 대해 적용 가능한 세율을 표시하시오.
+-- DECODE의 경우
+SELECT
+	LAST_NAME,
+	SALARY,
+	DECODE(SALARY/2000.0, 0, '0', 
+				1, '0.09', 
+				2, '0.2', 
+				3, '0.3', 
+				4, '0.4',
+				5, '0.42',
+				6, '0.44',
+				'0.45') AS TAX_RATE
+FROM
+	EMPLOYEES e
+WHERE DEPARTMENT_ID = 80;
+
+-- CASE의 경우
+SELECT
+	LAST_NAME,
+	SALARY,
+	CASE trunc(salary/2000.0) 
+		WHEN 0 THEN '0%' 
+		WHEN 1 THEN '9%'
+		WHEN 2 THEN '20%'
+		WHEN 3 THEN '30%'
+		WHEN 4 THEN '40%'
+		WHEN 5 THEN '42%'
+		WHEN 6 THEN '44%'
+		ELSE '45%'
+	END AS TAX_RATE
+FROM
+	EMPLOYEES e 
+WHERE DEPARTMENT_ID = 80;
+
+-- 최대 연봉 - 최소 연봉 차이 조회
+SELECT MAX(SALARY) - MIN(SALARY) AS GAP
+FROM EMPLOYEES e;
+
+-- 매니저로 근무하는 사원들의 총 수 조회(매니저번호 중복 제거)
+SELECT COUNT(DISTINCT MANAGER_ID)
+FROM EMPLOYEES e;
+
+-- 부서별 직원수 출력(부서번호의 오름차순 출력)
+SELECT DEPARTMENT_ID, count(EMPLOYEE_ID)
+FROM EMPLOYEES e 
+GROUP BY DEPARTMENT_ID
+ORDER BY DEPARTMENT_ID; 
+
+-- 부서별 평균 급여(부서번호 오름차순 출력)
+SELECT DEPARTMENT_ID, ROUND(avg(SALARY))
+FROM EMPLOYEES e 
+GROUP BY DEPARTMENT_ID 
+ORDER BY DEPARTMENT_ID;
+
+-- 동일한 직무(JOB_ID)를 가진 사원들의 총 수 조회
+SELECT JOB_ID, COUNT(EMPLOYEE_ID)
+FROM EMPLOYEES e 
+GROUP BY JOB_ID
+ORDER BY JOB_ID;
+
+-- 매니저가 관리하는 사원들 중에서 최소급여 조회
+-- 매니저가 관리하는 사원들 중에서 최소급여가 6000 미만인 최소급여는 제외
+-- 매니저가 없는 사원 제외
+
+-- 102 9000
+-- 103 8300
+-- 101 5800(x)
+SELECT MANAGER_ID, MIN(SALARY) 
+FROM EMPLOYEES e
+WHERE MANAGER_ID IS NOT NULL
+GROUP BY MANAGER_ID HAVING MIN(SALARY) >= 6000
+ORDER BY MANAGER_ID;
+
+-- 자신의 담당 매니저의 고용일보다 빠른 입사자 찾기
+-- hire_date, last_name, manager_id 출력
+SELECT e.EMPLOYEE_ID AS 내사원번호,
+	e.HIRE_DATE AS 내입사일,
+	e.LAST_NAME AS 이름,
+	e.MANAGER_ID AS 매니저번호,
+	e2.HIRE_DATE AS 매니저입사일
+FROM
+	EMPLOYEES e
+JOIN EMPLOYEES e2 ON
+	e.MANAGER_ID = e2.EMPLOYEE_ID
+WHERE e.HIRE_DATE < e2.HIRE_DATE;
+-- 또는(JOIN 조건에 다 넣기)
+SELECT
+	e.HIRE_DATE AS 내입사일,
+	e.LAST_NAME AS 이름,
+	e.MANAGER_ID AS 매니저번호
+FROM
+	EMPLOYEES e
+JOIN EMPLOYEES e2 ON
+	e.MANAGER_ID = e2.EMPLOYEE_ID
+	AND e.HIRE_DATE < e2.HIRE_DATE;
+
+-- 도시 이름이 T로 시작하는 지역에 사는 사람들의 사번. last_name, 부서번호 조회
+-- (도시명은 Locations 테이블에 )
+SELECT
+	e.EMPLOYEE_ID,
+	e.LAST_NAME,
+	e.DEPARTMENT_ID,
+	l.CITY
+FROM
+	EMPLOYEES e
+LEFT OUTER JOIN DEPARTMENTS d ON
+	e.DEPARTMENT_ID = d.DEPARTMENT_ID
+LEFT OUTER JOIN LOCATIONS l ON
+	d.LOCATION_ID = l.LOCATION_ID
+WHERE
+	l.CITY LIKE 'T%';
+
+-- 위치 아이디가 1700인 사원들의 last_name, 부서번호, 연봉 조회
+SELECT
+	e.LAST_NAME, e.DEPARTMENT_ID, e.SALARY
+FROM
+	EMPLOYEES e
+JOIN DEPARTMENTS d ON
+	e.DEPARTMENT_ID = d.DEPARTMENT_ID
+WHERE
+	d.LOCATION_ID = 1700;
+
+
+-- 부서명, 위치id, 각 부서별 사원 수, 각 부서별 평균 연봉 조회
+-- 평균 연봉은 소수점 2자리 까지만 표현
+SELECT
+	d.DEPARTMENT_NAME,
+	d.LOCATION_ID,
+	COUNT(*),
+	ROUND(AVG(e.SALARY), 2)
+FROM
+	EMPLOYEES e
+JOIN DEPARTMENTS d ON
+	e.DEPARTMENT_ID = d.DEPARTMENT_ID
+GROUP BY
+	d.DEPARTMENT_NAME,
+	d.LOCATION_ID
+ORDER BY
+	d.LOCATION_ID;
+
+
+-- Excutive 부서에 근무하는 사원들의 부서번호, last_name, job_id 조회
+SELECT
+	e.DEPARTMENT_ID,
+	e.LAST_NAME,
+	e.JOB_ID
+FROM
+	EMPLOYEES e
+LEFT OUTER JOIN DEPARTMENTS d ON
+	e.DEPARTMENT_ID = d.DEPARTMENT_ID
+WHERE
+	d.DEPARTMENT_NAME = 'Executive'
+
+-- 각 사원별 소속 부서에서 자신보다 늦게 고용되었으나 많은 연봉을 받는 사원이 존재하는
+-- 사원들의 이름 조회(이름은 first_name과 last_name을 결합하여 하나로 나오게 하기)
+-- 부서번호, 결합된 이름, salary, hire_date 출력
+SELECT
+	DISTINCT e.DEPARTMENT_ID AS 부서번호,
+	CONCAT(e.FIRST_NAME, CONCAT(' ', e.LAST_NAME)) AS 내이름,
+	e.HIRE_DATE AS 고용일
+FROM
+	EMPLOYEES e
+JOIN EMPLOYEES e2 ON
+	e.DEPARTMENT_ID = e2.DEPARTMENT_ID
+	AND e.SALARY < e2.SALARY
+	AND e.HIRE_DATE < e2.HIRE_DATE 
+
+
+
+
+
+
+
+SELECT * FROM EMPLOYEES e ;
+
+
+
+
+
+
