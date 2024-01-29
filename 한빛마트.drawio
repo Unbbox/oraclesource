@@ -1,205 +1,205 @@
-<mxfile host="app.diagrams.net" modified="2024-01-29T03:01:18.536Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Whale/3.24.223.21 Safari/537.36" etag="tx5wT0X4mZTiv7YpjhBn" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-29T03:08:08.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Whale/3.24.223.21 Safari/537.36" etag="UjzzykuxeYQas2JbAX9G" version="23.0.2" type="github">
   <diagram name="페이지-1" id="vop96PFRZeA1DLH2P4eH">
-    <mxGraphModel dx="4535" dy="2854" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4141" dy="3384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="4-usfO6HSsl7_eMU_dA9-1" value="회원" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2056" y="-1098" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3134" y="-1969" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-2" value="상품" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1638" y="-1098" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2716" y="-1969" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-4" value="회원아이디" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-1263" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-2134" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-5" value="비밀번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-1208" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-2079" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-6" value="이름" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-1153" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-2024" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-7" value="나이" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-1098" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1969" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-8" value="직업" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-1043" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1914" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-9" value="등급" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-988" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1859" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-10" value="적립금" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-933" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1804" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-11" value="상품번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-1180.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-2051.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-12" value="상품명" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-1125.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1996.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-13" value="재고량" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-1070.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1941.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-14" value="단가" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-1015.5" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1886.5" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-20" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-2" target="4-usfO6HSsl7_eMU_dA9-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1689" y="-1188" as="sourcePoint" />
-            <mxPoint x="-1529" y="-1188" as="targetPoint" />
+            <mxPoint x="-2767" y="-2059" as="sourcePoint" />
+            <mxPoint x="-2607" y="-2059" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-21" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-2" target="4-usfO6HSsl7_eMU_dA9-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-1068" as="sourcePoint" />
-            <mxPoint x="-1468" y="-1150" as="targetPoint" />
+            <mxPoint x="-2606" y="-1939" as="sourcePoint" />
+            <mxPoint x="-2546" y="-2021" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-22" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-2" target="4-usfO6HSsl7_eMU_dA9-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-1068" as="sourcePoint" />
-            <mxPoint x="-1468" y="-1095" as="targetPoint" />
+            <mxPoint x="-2606" y="-1939" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1966" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-23" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-2" target="4-usfO6HSsl7_eMU_dA9-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-1068" as="sourcePoint" />
-            <mxPoint x="-1468" y="-1040" as="targetPoint" />
+            <mxPoint x="-2606" y="-1939" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1911" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-24" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-10" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2122" y="-915" as="sourcePoint" />
-            <mxPoint x="-2062" y="-997" as="targetPoint" />
+            <mxPoint x="-3200" y="-1786" as="sourcePoint" />
+            <mxPoint x="-3140" y="-1868" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-25" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-9" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2122" y="-997" as="sourcePoint" />
-            <mxPoint x="-2062" y="-1079" as="targetPoint" />
+            <mxPoint x="-3200" y="-1868" as="sourcePoint" />
+            <mxPoint x="-3140" y="-1950" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-26" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-8" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2112" y="-958" as="sourcePoint" />
-            <mxPoint x="-2046" y="-1068" as="targetPoint" />
+            <mxPoint x="-3190" y="-1829" as="sourcePoint" />
+            <mxPoint x="-3124" y="-1939" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-27" value="제조업체" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1638" y="-729" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2716" y="-1600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-28" value="업체코드" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-827" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1698" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-29" value="전화번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-729" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1600" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-30" value="위치" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-680" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1551" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-31" value="담당자" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-631" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1502" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-32" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-27" target="4-usfO6HSsl7_eMU_dA9-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1689" y="-791.5" as="sourcePoint" />
-            <mxPoint x="-1529" y="-791.5" as="targetPoint" />
+            <mxPoint x="-2767" y="-1662.5" as="sourcePoint" />
+            <mxPoint x="-2607" y="-1662.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-33" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-27" target="4-usfO6HSsl7_eMU_dA9-29">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-671.5" as="sourcePoint" />
-            <mxPoint x="-1468" y="-753.5" as="targetPoint" />
+            <mxPoint x="-2606" y="-1542.5" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1624.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-34" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-27" target="4-usfO6HSsl7_eMU_dA9-30">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-671.5" as="sourcePoint" />
-            <mxPoint x="-1468" y="-698.5" as="targetPoint" />
+            <mxPoint x="-2606" y="-1542.5" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1569.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-35" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-27" target="4-usfO6HSsl7_eMU_dA9-31">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-671.5" as="sourcePoint" />
-            <mxPoint x="-1468" y="-643.5" as="targetPoint" />
+            <mxPoint x="-2606" y="-1542.5" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1514.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-36" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-7" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2112" y="-1013" as="sourcePoint" />
-            <mxPoint x="-2046" y="-1068" as="targetPoint" />
+            <mxPoint x="-3190" y="-1884" as="sourcePoint" />
+            <mxPoint x="-3124" y="-1939" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-37" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-6" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2112" y="-1068" as="sourcePoint" />
-            <mxPoint x="-2046" y="-1068" as="targetPoint" />
+            <mxPoint x="-3190" y="-1939" as="sourcePoint" />
+            <mxPoint x="-3124" y="-1939" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-38" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.99;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-5" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2112" y="-1123" as="sourcePoint" />
-            <mxPoint x="-2053" y="-1077" as="targetPoint" />
+            <mxPoint x="-3190" y="-1994" as="sourcePoint" />
+            <mxPoint x="-3131" y="-1948" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-39" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-4" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2102" y="-1113" as="sourcePoint" />
-            <mxPoint x="-2036" y="-1058" as="targetPoint" />
+            <mxPoint x="-3180" y="-1984" as="sourcePoint" />
+            <mxPoint x="-3114" y="-1929" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-40" value="게시글" style="whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2056" y="-782" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3134" y="-1653" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-41" value="글번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-860" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1731" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-42" value="글제목" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-805" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1676" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-43" value="글내용" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-750" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1621" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-44" value="작성일자" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2222" y="-695" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3300" y="-1566" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-45" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-40" target="4-usfO6HSsl7_eMU_dA9-41">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2433" y="-867.5" as="sourcePoint" />
-            <mxPoint x="-2273" y="-867.5" as="targetPoint" />
+            <mxPoint x="-3511" y="-1738.5" as="sourcePoint" />
+            <mxPoint x="-3351" y="-1738.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-46" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-40" target="4-usfO6HSsl7_eMU_dA9-42">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2272" y="-747.5" as="sourcePoint" />
-            <mxPoint x="-2212" y="-829.5" as="targetPoint" />
+            <mxPoint x="-3350" y="-1618.5" as="sourcePoint" />
+            <mxPoint x="-3290" y="-1700.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-47" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-40" target="4-usfO6HSsl7_eMU_dA9-43">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2272" y="-747.5" as="sourcePoint" />
-            <mxPoint x="-2212" y="-774.5" as="targetPoint" />
+            <mxPoint x="-3350" y="-1618.5" as="sourcePoint" />
+            <mxPoint x="-3290" y="-1645.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-48" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-40" target="4-usfO6HSsl7_eMU_dA9-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2272" y="-747.5" as="sourcePoint" />
-            <mxPoint x="-2212" y="-719.5" as="targetPoint" />
+            <mxPoint x="-3350" y="-1618.5" as="sourcePoint" />
+            <mxPoint x="-3290" y="-1590.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-49" value="제조업체명" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-778" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1649" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-50" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4-usfO6HSsl7_eMU_dA9-49" source="4-usfO6HSsl7_eMU_dA9-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1337" y="-681" as="sourcePoint" />
-            <mxPoint x="-1267" y="-753.5" as="targetPoint" />
+            <mxPoint x="-2415" y="-1552" as="sourcePoint" />
+            <mxPoint x="-2345" y="-1624.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-52" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-51" target="4-usfO6HSsl7_eMU_dA9-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1741" y="-1152" as="sourcePoint" />
-            <mxPoint x="-1581" y="-1152" as="targetPoint" />
+            <mxPoint x="-2819" y="-2023" as="sourcePoint" />
+            <mxPoint x="-2659" y="-2023" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-54" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-52">
@@ -207,23 +207,23 @@
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-55" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-1" target="4-usfO6HSsl7_eMU_dA9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1956" y="-1078" as="sourcePoint" />
-            <mxPoint x="-1638" y="-1078" as="targetPoint" />
+            <mxPoint x="-3034" y="-1949" as="sourcePoint" />
+            <mxPoint x="-2716" y="-1949" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-56" value="M" style="resizable=0;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-55">
           <mxGeometry x="-1" relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-51" value="주문" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1857" y="-1107" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2935" y="-1978" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-60" value="공급" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1648" y="-925" width="120" height="60" as="geometry" />
+          <mxGeometry x="-2726" y="-1796" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-61" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-60" target="4-usfO6HSsl7_eMU_dA9-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1788" y="-850" as="sourcePoint" />
-            <mxPoint x="-1628" y="-850" as="targetPoint" />
+            <mxPoint x="-2866" y="-1721" as="sourcePoint" />
+            <mxPoint x="-2706" y="-1721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-62" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-61">
@@ -231,8 +231,8 @@
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-63" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-60" target="4-usfO6HSsl7_eMU_dA9-2">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1788" y="-850" as="sourcePoint" />
-            <mxPoint x="-1628" y="-850" as="targetPoint" />
+            <mxPoint x="-2866" y="-1721" as="sourcePoint" />
+            <mxPoint x="-2706" y="-1721" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-64" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-63">
@@ -241,42 +241,42 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-65" value="공급량" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-941" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1812" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-66" value="공급일자" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1478" y="-888" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2556" y="-1759" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-67" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-60" target="4-usfO6HSsl7_eMU_dA9-65">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1528" y="-1040" as="sourcePoint" />
-            <mxPoint x="-1468" y="-957" as="targetPoint" />
+            <mxPoint x="-2606" y="-1911" as="sourcePoint" />
+            <mxPoint x="-2546" y="-1828" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-68" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-60" target="4-usfO6HSsl7_eMU_dA9-66">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1518" y="-885" as="sourcePoint" />
-            <mxPoint x="-1480" y="-909" as="targetPoint" />
+            <mxPoint x="-2596" y="-1756" as="sourcePoint" />
+            <mxPoint x="-2558" y="-1780" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-69" value="배송지" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1916" y="-1243" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2994" y="-2114" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-70" value="배송지" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1777" y="-1243" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2855" y="-2114" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-71" value="주문수량" style="ellipse;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1719" y="-1175" width="100" height="40" as="geometry" />
+          <mxGeometry x="-2797" y="-2046" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-72" value="주문번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1981" y="-1175" width="100" height="40" as="geometry" />
+          <mxGeometry x="-3059" y="-2046" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-73" value="작성" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-2066" y="-951" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3144" y="-1822" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-77" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-73" target="4-usfO6HSsl7_eMU_dA9-40">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1916" y="-1057" as="sourcePoint" />
-            <mxPoint x="-1756" y="-1057" as="targetPoint" />
+            <mxPoint x="-2994" y="-1928" as="sourcePoint" />
+            <mxPoint x="-2834" y="-1928" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-78" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-77">
@@ -284,8 +284,8 @@
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-79" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-73" target="4-usfO6HSsl7_eMU_dA9-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1916" y="-1057" as="sourcePoint" />
-            <mxPoint x="-1756" y="-1057" as="targetPoint" />
+            <mxPoint x="-2994" y="-1928" as="sourcePoint" />
+            <mxPoint x="-2834" y="-1928" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-80" value="1" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;fontSize=16;" connectable="0" vertex="1" parent="4-usfO6HSsl7_eMU_dA9-79">
@@ -295,26 +295,26 @@
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-81" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-72" target="4-usfO6HSsl7_eMU_dA9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1916" y="-1057" as="sourcePoint" />
-            <mxPoint x="-1756" y="-1057" as="targetPoint" />
+            <mxPoint x="-2994" y="-1928" as="sourcePoint" />
+            <mxPoint x="-2834" y="-1928" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-82" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-71" target="4-usfO6HSsl7_eMU_dA9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1758" y="-1144" as="sourcePoint" />
-            <mxPoint x="-1787" y="-1097" as="targetPoint" />
+            <mxPoint x="-2836" y="-2015" as="sourcePoint" />
+            <mxPoint x="-2865" y="-1968" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-83" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-70" target="4-usfO6HSsl7_eMU_dA9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1694" y="-1131" as="sourcePoint" />
-            <mxPoint x="-1787" y="-1147" as="targetPoint" />
+            <mxPoint x="-2772" y="-2002" as="sourcePoint" />
+            <mxPoint x="-2865" y="-2018" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4-usfO6HSsl7_eMU_dA9-84" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4-usfO6HSsl7_eMU_dA9-69" target="4-usfO6HSsl7_eMU_dA9-51">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1717" y="-1193" as="sourcePoint" />
-            <mxPoint x="-1800" y="-1142" as="targetPoint" />
+            <mxPoint x="-2795" y="-2064" as="sourcePoint" />
+            <mxPoint x="-2878" y="-2013" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
