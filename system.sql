@@ -40,9 +40,10 @@ QUOTA 10M ON USERS;
 
 GRANT CONNECT, resource TO c##test2;
 
+-- REVOKE 취소할 권한이름, ...
 
-
-
+-- 비밀번호 변경
+ALTER USER c##test2 IDENTIFIED BY test;
 
 
 
